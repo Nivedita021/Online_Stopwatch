@@ -1,0 +1,59 @@
+body{
+  background: url(rise.jfif) center center fixed;
+  background-size: cover;
+  color: white
+}
+
+#header{
+  text-align: center;
+   font-size: 6vw;
+}
+#lapse{
+  text-align: right;
+  font-size: 4vw;
+}
+#time{
+  text-align: center;
+  font-size: 10vw;
+}
+#controls{
+  margin-bottom: 100px;
+}
+
+.controlbut{
+  color:white;
+  background-color:coral;
+  border-radius: 100%;
+  width: 10vw;
+  height: 10vw;
+  text-align: center;
+  padding:28% 0;
+  font-size:2.5vw;
+  cursor: pointer;
+
+}
+
+.controlbut:active{
+  background-color: white;
+  color:coral;
+}
+
+#laplist{
+  max-height: 270px;
+  overflow-y: scroll;
+}
+.lapdivjs{
+  height:50px;
+  border-bottom:1px solid white;
+  margin-bottom:20px;
+}
+.laptimetitle{
+  font-size: 2.5em;
+  float: left;
+  
+}
+.laptimekey{
+  font-size: 2.5em;
+  float:right;
+  
+}
